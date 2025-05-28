@@ -10,7 +10,7 @@ st.title("AI-Based Career Counselor")
 
 st.markdown("### Enter your details:")
 
-education = st.text_input("ENTER YOUR EDUCATION LEVEL"("Bachelor's", "Master's", "Diploma", "PhD"))
+education = st.selectbox("ENTER YOUR EDUCATION LEVEL",("Bachelor's", "Master's", "Diploma", "PhD"))
 skills = st.text_input("Enter your primary skill (e.g. Python, ML, VLSI)")
 interests = st.text_input("Enter your interest area (e.g. AI, Design, Research)")
 
